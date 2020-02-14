@@ -14,6 +14,10 @@ A cookiecutter template to generate a simple python package, with the assumption
 
 # Installation
 
-Requires `cookiecutter`: `pipx install cookiecutter`
+Requirements:
+* `cookiecutter`: `pipx install cookiecutter`
+* `poetry`: See (Poetry)[python-poetry.org/docs] documentation -- use the `curl` method (not pipx), at least until (Issue #1888)[https://github.com/python-poetry/poetry/issues/1888] is resolved.
 
 `cookiecutter gh:charraig/pyrepo-cookiecutter`
+`cd <project_name>`
+`poetry install`
