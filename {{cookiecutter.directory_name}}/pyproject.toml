@@ -1,10 +1,10 @@
 [tool.poetry]
 name = "{{ cookiecutter.directory_name }}"
-version = "{{ cookiecutter.poetry.version }}"
-description = "{{ cookiecutter.poetry.description }}"
-authors = "{{ cookiecutter.poetry.authors }}"
-readme = "{{ cookiecutter.poetry.readme }}"
-license = "{{ cookiecutter.poetry.license }}"
+version = "{{ cookiecutter.version }}"
+description = "{{ cookiecutter.description }}"
+authors = "{{ cookiecutter.authors }}"
+readme = "{{ cookiecutter.readme }}"
+license = "{{ cookiecutter.license }}"
 
 [tool.poetry.dependencies]
 python = "^3.8"
