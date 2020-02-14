@@ -1,6 +1,6 @@
 # Introduction
 
-A cookiecutter template to generate a simple python package, with the assumptions that the user is using:
+A cookiecutter template to generate a simple python package. @dependabot checks the inner template ({{cookiecutter.directory_name}}) dependencies.
 
 * `pyenv` for Python version management
 * `poetry` for package management
