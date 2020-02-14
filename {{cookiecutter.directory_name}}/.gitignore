@@ -1,0 +1,13 @@
+# OS-specific
+*.DS_Store
+
+# Editor / IDE
+*.code-workspace
+.vscode/
+
+# Python Development
+.venv/
+*.egg-info/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
