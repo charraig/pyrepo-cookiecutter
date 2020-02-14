@@ -1,12 +1,10 @@
 {
     "directory_name": "awesome-python-proj",
-    "poetry": {
-        "version": "0.1.0",
-        "description": "Quite simply, it saves the world.",
-        "authors": [
-            "charraig"
-        ],
-        "license": "GPL-3.0-or-later",
-        "readme": "README.md"
-    }
+    "version": "0.1.0",
+    "description": "Quite simply, it saves the world.",
+    "authors": [
+        "charraig"
+    ],
+    "license": "GPL-3.0-or-later",
+    "readme": "README.md"
 }
