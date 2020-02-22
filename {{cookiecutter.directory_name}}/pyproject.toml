@@ -8,6 +8,8 @@ license = "{{ cookiecutter.license }}"
 
 [tool.poetry.dependencies]
 python = "^3.8"
+pandas = "^1.0"
+notebook = "^6.0.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.3.5"
