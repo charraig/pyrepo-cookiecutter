@@ -19,6 +19,7 @@ Requirements:
 * `poetry`: See [Poetry](www.python-poetry.org/docs) documentation -- use the `curl` method (not pipx), at least until [Issue #1888](https://github.com/python-poetry/poetry/issues/1888) is resolved.
 
 ```bash
+pipx reinstall-all  # if brew python has been updated
 cookiecutter gh:charraig/pyrepo-cookiecutter
 cd <project_name>
 poetry install
