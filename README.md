@@ -11,13 +11,13 @@ A cookiecutter template to generate a simple python package. @dependabot checks 
     * `black` for auto-formatting
     * `flake8` for linting
     * `isort` for import ordering
+ * [pdoc](https://pdoc3.github.io/pdoc/) for documentation
 
 # Basic Usage
 
 Requirements:
 * `cookiecutter`: `pipx install cookiecutter`
 * `poetry`: See [Poetry](www.python-poetry.org/docs) documentation -- use the `curl` method (not pipx), at least until [Issue #1888](https://github.com/python-poetry/poetry/issues/1888) is resolved.
-* `pdoc`: To generate documentation. See [pdoc](https://pdoc3.github.io/pdoc/) documentation.
 
 ## Create new project
 
@@ -30,7 +30,7 @@ poetry install
 
 ## Generate project documentation
 
-Run the following commands in the project virtual environment:
+`pdoc` will be installed by poetry in the virtual environment upon intialization. Run the following commands in the project virtual environment:
 
 * HTML documentation (the `--force` flag means it will overwrite existing, previously generated html documentation):
 ```bash
