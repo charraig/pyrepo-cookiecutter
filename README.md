@@ -39,5 +39,5 @@ pdoc --html --force --output-dir docs --config latex_math=True <project_name>
 * Markdown documentation (currently buggy):
 
 ```bash
-pdoc --pdf <project_name> >> "docs/API Reference.md"
+pdoc --output-dir docs --config latex_math=True <project_name>
 ```
