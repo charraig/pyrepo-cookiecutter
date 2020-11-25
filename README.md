@@ -30,13 +30,13 @@ poetry install
 
 ## Generate project documentation
 
-HTML documentation (the `--force` flag means it will overwrite existing, previously generated html documentation):
+Run the following commands in the project virtual environment:
 
+* HTML documentation (the `--force` flag means it will overwrite existing, previously generated html documentation):
 ```bash
 pdoc --html --force --output-dir docs --config latex_math=True <project_name>
 ```
-
-Markdown documentation (currently buggy):
+* Markdown documentation (currently buggy):
 
 ```bash
 pdoc --pdf <project_name> >> "docs/API Reference.md"
