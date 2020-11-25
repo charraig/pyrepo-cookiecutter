@@ -12,15 +12,32 @@ A cookiecutter template to generate a simple python package. @dependabot checks 
     * `flake8` for linting
     * `isort` for import ordering
 
-# Installation
+# Basic Usage
 
 Requirements:
 * `cookiecutter`: `pipx install cookiecutter`
 * `poetry`: See [Poetry](www.python-poetry.org/docs) documentation -- use the `curl` method (not pipx), at least until [Issue #1888](https://github.com/python-poetry/poetry/issues/1888) is resolved.
+* `pdoc`: To generate documentation. See [pdoc](https://pdoc3.github.io/pdoc/) documentation.
+
+## Create new project
 
 ```bash
 pipx reinstall-all  # if brew python has been updated
 cookiecutter gh:charraig/pyrepo-cookiecutter
 cd <project_name>
 poetry install
+```
+
+## Generate project documentation
+
+HTML documentation (the `--force` flag means it will overwrite existing, previously generated html documentation):
+
+```bash
+pdoc --html --force --output-dir docs --config latex_math=True <project_name>
+```
+
+Markdown documentation (currently buggy):
+
+```bash
+pdoc --pdf <project_name> >> "docs/API Reference.md"
 ```
