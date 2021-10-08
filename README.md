@@ -23,6 +23,7 @@ Requirements:
 
 ```bash
 pipx reinstall-all  # if brew python has been updated
+poetry self update
 cookiecutter gh:charraig/pyrepo-cookiecutter
 cd <project_name>
 poetry install
