@@ -16,6 +16,7 @@ A cookiecutter template to generate a simple python package. @dependabot checks 
 # Basic Usage
 
 Requirements:
+* `pipx`: See [pipx](https://pypa.github.io/pipx/)
 * `cookiecutter`: `pipx install cookiecutter`
 * `poetry`: See [Poetry](https://www.python-poetry.org/docs) documentation -- use the `curl` method (not pipx), at least until [Issue #1888](https://github.com/python-poetry/poetry/issues/1888) is resolved.
 
