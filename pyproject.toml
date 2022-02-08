@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "pyrepo-template"
-version = "0.1.0"
+version = "0.2.0"
 description = "Cookiecutter template for generic python project."
 authors = ["charraig"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.7"
-tomlkit = "^0.7.2"
+python = "^3.10"
+tomlkit = "^0.9.2"
 
 [tool.poetry.dev-dependencies]
 
