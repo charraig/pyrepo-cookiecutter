@@ -18,16 +18,15 @@ A cookiecutter template to generate a simple python package. @dependabot checks 
 Requirements:
 * `pipx`: See [pipx](https://pypa.github.io/pipx/)
 * `cookiecutter`: `pipx install cookiecutter`
-* `poetry`: See [Poetry](https://www.python-poetry.org/docs) documentation -- use the `curl` method (not pipx), at least until [Issue #1888](https://github.com/python-poetry/poetry/issues/1888) is resolved.
+* `poetry`: See [Poetry](https://www.python-poetry.org/docs) documentation
 
 ## Create new project
 
 ```bash
-pipx reinstall-all  # if brew python has been updated
+pipx reinstall-all  # if brew python has been updated or structure pipx as described [here](https://gabnotes.org/how-use-pipx-pyenv/)
 poetry self update
 cookiecutter gh:charraig/pyrepo-cookiecutter
 cd <project_name>
-poetry install
 ```
 
 ## Generate project documentation
